@@ -250,10 +250,6 @@ void connectWiFi() {
 }
 
 void uploadToFirestore() {
-   nitrogen = readSensor(0x001E);
-   phosphorus = readSensor(0x001F);
-   potassium = readSensor(0x0020);
-
   // Update NTP time
   timeClient.update();
 
